@@ -1,0 +1,90 @@
+.company {
+    
+   
+    text-align: center; /* Center the text horizontally */
+    
+}
+
+.company span {
+    display: inline-block; /* Ensure the span takes only the width of its content */
+     background-color: rgb(207, 179, 233);/* Background color limited to text area */
+    padding: 5px 10px; /* Optional: Adjust padding as needed */
+    text-align: center;
+}
+
+
+.para{
+    font-weight: 900;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+    display: flex;
+
+    
+    justify-content:space-evenly;
+
+}
+.image1{
+    border: 2px solid black;
+    border-radius: 500px;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+   
+}
+.image1:hover {
+    cursor: pointer;
+    transform: scale(1.15 );
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+}
+h3{
+    margin: 0px;
+    font-size: 15px;
+}
+h2{
+    font-size: 15px;
+}
+#lead{
+    text-align: center;
+    margin: 10px;
+}
+.heading span{
+    display: inline-block; /* Ensure the span takes only the width of its content */
+    background-color: rgb(207, 179, 233);/* Background color limited to text area */
+   padding: 5px 10px; /* Optional: Adjust padding as needed */
+   text-align: center;
+}
+.img2 h2{
+    margin: 0px;
+    text-align: center;
+    
+}
+.img2 h3{
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.empname{
+    background-color: rgb(237, 223, 250);
+}
+.empname1{
+    background-color: rgb(255, 237, 227);
+}
+.empname2{
+    background-color: rgb(237, 226, 249);
+}
+
+@media (max-width:700px){
+    .image{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
